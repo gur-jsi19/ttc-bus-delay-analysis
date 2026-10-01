@@ -1,0 +1,1 @@
+\copy bus_delay_incidents FROM 'data/processed/ttc_bus_delays_2023_2024.csv' WITH (FORMAT csv, HEADER MATCH)
